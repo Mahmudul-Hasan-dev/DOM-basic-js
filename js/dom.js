@@ -46,3 +46,7 @@ for (let fruit of allfruit) {
     console.log(fruit.innerText);
 }
 // console.log(document.querySelector('.fruits-container li'));
+
+
+//how to access style from js
+console.log(document.getElementsByClassName('.menu-title').style)
